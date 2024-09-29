@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Expense - Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="add.html">Add Expense</a></li>
+                <li><a href="view.html">View Expense</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section>
+            <form id="app">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="category">Category:</label>
+                <input type="text" id="category" name="category" required>
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+                <button type="submit">Edit Expense</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Thandi's Expense Tracker. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

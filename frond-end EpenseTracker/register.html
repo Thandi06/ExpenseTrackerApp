@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="add.html">Add Expense</a></li>
+                <li><a href="view.html">View Expense</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section>
+            <form id="app">
+                <input type="text" id="reg-username" placeholder="Username" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="reg-password" placeholder="Password" required>
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                <label>
+                    <input type="checkbox" id="show-reg-password"> Show Password
+                </label>
+                <button type="button" id="register-button">Register</button>
+                <div id="message"></div>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Thandi's Expense Tracker. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

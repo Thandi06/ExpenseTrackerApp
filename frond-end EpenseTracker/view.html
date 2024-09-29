@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Expenses - Expense Tracker</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="add.html">Add Expense</a></li>
+                <li><a href="view.html">View Expense</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Category</th>
+                        <th>Amount</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <form>
+                            <td><input type="date" id="date" name="date" required class="info"></td>
+                            <td><input type="text" id="category" name="category" required class="info"></td>
+                            <td><input type="number" id="amount" name="amount" required class="info"></td>
+                            <td><input type="text" id="description" name="description" required class="info"></td>
+                            <td><button type="submit">Add</button></td>
+                        </form>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Thandi's Expense Tracker. All rights reserve.</p>
+    </footer>
+</body>
+
+</html>
